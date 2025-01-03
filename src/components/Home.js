@@ -3,6 +3,8 @@ import React from 'react';
 function HeroSection() {
   return (
     <div className="hero">
+      <div className="hero-shape hero-shape-1"></div>
+      <div className="hero-shape hero-shape-2"></div>
       <h1>Mazen Development: Crafting Digital Solutions</h1>
       <p>
         We build high-performance websites and applications that drive business

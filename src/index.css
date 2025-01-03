@@ -1,0 +1,45 @@
+/* Global styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: #e0e0e0;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Other section styles */
+.about-us,
+.services,
+.portfolio,
+.testimonials,
+.about-page,
+.services-page,
+.portfolio-page,
+.contact-page {
+  padding: 2rem;
+}
+
+.contact-page form div {
+  margin-bottom: 1rem;
+}

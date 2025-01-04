@@ -8,10 +8,10 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif; /* Updated font */
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #333; /* Dark gray text */
+    background-color: #f8f8f8; /* Light gray background */
 }
 
 /* Container */
@@ -24,7 +24,7 @@ body {
 
 /* Header */
 header {
-    background-color: #fff;
+    background-color: #fff; /* White background */
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -35,7 +35,7 @@ header {
 .logo {
     font-weight: bold;
     font-size: 24px;
-    color: #7209b7; /* Example brand color */
+    color: #7209b7; /* Primary brand color (purple) */
     text-decoration: none;
 }
 
@@ -53,17 +53,17 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: 600;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
 nav ul li a:hover {
-    color: #7209b7; /* Example brand color */
+    color: #7209b7; /* Change to primary color on hover */
 }
 
 /* Hero Section */
 .hero {
-    background-color: #7209b7; /* Example brand color */
-    color: #fff;
+    background-color: #7209b7; /* Purple background */
+    color: #fff; /* White text */
     text-align: center;
     padding: 100px 0;
 }
@@ -72,6 +72,7 @@ nav ul li a:hover {
     font-size: 48px;
     margin-bottom: 20px;
     line-height: 1.2;
+    font-weight: bold; /* Bold heading */
 }
 
 .hero p {
@@ -81,19 +82,20 @@ nav ul li a:hover {
 
 .btn {
     display: inline-block;
-    background-color: #f72585; /* Example secondary color */
+    background-color: #f72585; /* Pink secondary color */
     color: #fff;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; /* Smooth background transition on hover */
     border: none;
     font-size: 16px;
     cursor: pointer;
+    font-weight: bold; /* Bold button text */
 }
 
 .btn:hover {
-    background-color: #d81159; /* Darker shade of secondary color */
+    background-color: #d81159; /* Darker pink on hover */
 }
 
 /* Services Section */
@@ -105,6 +107,7 @@ nav ul li a:hover {
 .services h2 {
     font-size: 36px;
     margin-bottom: 40px;
+    font-weight: bold; /* Bold heading */
 }
 
 .services-grid {
@@ -114,10 +117,16 @@ nav ul li a:hover {
 }
 
 .service {
-    background-color: #fff;
+    background-color: #fff; /* White background for service boxes */
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition on hover */
+}
+
+.service:hover {
+    transform: translateY(-5px); /* Slightly lift the box on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Add a more prominent shadow */
 }
 
 .service img {
@@ -129,6 +138,8 @@ nav ul li a:hover {
 .service h3 {
     font-size: 24px;
     margin-bottom: 15px;
+    font-weight: bold; /* Bold heading */
+    color: #7209b7; /* Primary color for service titles */
 }
 
 .service p {
@@ -139,13 +150,14 @@ nav ul li a:hover {
 /* Work Section */
 .work {
     padding: 80px 0;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8; /* Light gray background */
 }
 
 .work h2 {
     font-size: 36px;
     margin-bottom: 40px;
     text-align: center;
+    font-weight: bold; /* Bold heading */
 }
 
 .work-grid {
@@ -165,11 +177,11 @@ nav ul li a:hover {
     width: 100%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
 }
 
 .project:hover img {
-    transform: scale(1.1);
+    transform: scale(1.1); /* Slightly enlarge image on hover */
 }
 
 .project-info {
@@ -177,20 +189,21 @@ nav ul li a:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
     color: #fff;
     padding: 20px;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease; /* Smooth opacity transition on hover */
 }
 
 .project:hover .project-info {
-    opacity: 1;
+    opacity: 1; /* Show project info on hover */
 }
 
 .project-info h3 {
     font-size: 20px;
     margin-bottom: 10px;
+    font-weight: bold; /* Bold heading */
 }
 
 .project-info p {
@@ -206,6 +219,7 @@ nav ul li a:hover {
 .about h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    font-weight: bold; /* Bold heading */
 }
 
 .about p {
@@ -218,7 +232,7 @@ nav ul li a:hover {
 /* Contact Section */
 .contact {
     padding: 80px 0;
-    background-color: #7209b7; /* Example brand color */
+    background-color: #7209b7; /* Purple background */
     color: #fff;
     text-align: center;
 }
@@ -226,6 +240,7 @@ nav ul li a:hover {
 .contact h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    font-weight: bold; /* Bold heading */
 }
 
 .contact p {

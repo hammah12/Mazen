@@ -33,16 +33,24 @@ header {
 }
 
 .logo {
-    font-family: 'Montserrat', sans-serif; /* New font for logo */
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #7209b7;
     text-decoration: none;
 }
 
+/* Navigation */
+nav {
+    background-color: #7209b7; /* Add background color to the nav */
+    padding: 10px 0; /* Add padding to the nav */
+}
+
 nav ul {
     list-style: none;
     float: right;
+    margin: 0; /* Remove margin to prevent extra spacing issues */
+    padding: 0; /* Remove padding to prevent extra spacing issues */
 }
 
 nav ul li {
@@ -52,26 +60,27 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff; /* White text color */
     font-weight: 600;
     transition: color 0.3s ease;
-    font-family: 'Raleway', sans-serif; /* New font for nav links */
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 10px; /* Increase padding around links */
 }
 
 nav ul li a:hover {
-    color: #7209b7;
+    color: #f72585; /* Change color on hover */
 }
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(to right, #7209b7, #4361ee); /* Gradient background */
+    background-image: linear-gradient(to right, #7209b7, #4361ee);
     color: #fff;
     text-align: center;
     padding: 100px 0;
 }
 
 .hero h1 {
-    font-family: 'Poppins', sans-serif; /* New font for headings */
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     margin-bottom: 20px;
     line-height: 1.2;
@@ -89,20 +98,20 @@ nav ul li a:hover {
     color: #fff;
     padding: 15px 30px;
     text-decoration: none;
-    border-radius: 8px; /* More rounded corners */
-    transition: all 0.3s ease; /* Smooth transitions */
+    border-radius: 8px;
+    transition: all 0.3s ease;
     border: none;
     font-size: 16px;
     cursor: pointer;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
     background-color: #d81159;
-    transform: translateY(-2px); /* Slightly lift on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Services Section */
@@ -135,15 +144,6 @@ nav ul li a:hover {
 .service:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.service img {
-    width: 80px; /* Increased size */
-    height: 80px; /* Increased size */
-    margin-bottom: 20px;
-    background-color: #f0f0f0; /* Light background for placeholders */
-    padding: 15px; /* Padding around placeholders */
-    border-radius: 50%; /* Circular placeholders */
 }
 
 .service h3 {
@@ -191,8 +191,8 @@ nav ul li a:hover {
     height: auto;
     display: block;
     transition: transform 0.3s ease;
-    border-radius: 8px; /* Rounded corners */
-    border: 2px solid #eee; /* Subtle border */
+    border-radius: 8px;
+    border: 2px solid #eee;
 }
 
 .project:hover img {

@@ -24,7 +24,7 @@ body {
 
 /* Header */
 header {
-    background-color: #fff;
+    background-color: transparent; /* Set header background to transparent */
     padding: 20px 0; /* Adjust padding as needed */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -44,16 +44,15 @@ header {
 
 /* Navigation */
 nav {
-    background-color: rgba(114, 9, 183, 0.7);
-    /* Remove fixed padding */
+    background-color: rgba(114, 9, 183, 0.7); /* Transparent purple background */
     margin-left: auto; /* Push nav to the right */
 }
 
 nav ul {
     list-style: none;
     float: right;
-    margin: 0; /* Remove margin to prevent extra spacing issues */
-    padding: 0; /* Remove padding to prevent extra spacing issues */
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -63,7 +62,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff; /* White text color */
+    color: #000; /* Set link color to black */
     font-weight: 600;
     transition: color 0.3s ease;
     font-family: 'Raleway', sans-serif;
@@ -71,7 +70,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f72585; /* Change color on hover */
+    color: #f72585; /* Change color on hover - use your desired hover color */
 }
 
 /* Hero Section */
@@ -203,7 +202,7 @@ nav ul li a:hover {
 }
 
 .project-info {
-    position: absolute;
+        position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
